@@ -1,4 +1,4 @@
-# MEGR 2157 – Design Portfolio
+# Randy Hoang's MEGR 2156 – Design Portfolio
 
 ![Randy Hoang - MEGR 2156 Portfolio](MEGR2156title.png)
 
