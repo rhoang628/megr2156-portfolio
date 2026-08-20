@@ -17,8 +17,8 @@
     c. These projects do not show any decisions made and only show the final results.  
     d. The portfolio is very professional and can be handed over to an employer.  
 
-  ### Task B: Product Analysis  
- #### a. Primary Function
+### Task B: Product Analysis  
+#### a. Primary Function
 The primary function of a spring-action clothespin is to apply a sustained compressive clamping force between two opposed jaws, generating sufficient static friction and mechanical interlocking to secure an object against external loads (such as gravity or wind shear).
 
 #### b. Governing Model
