@@ -13,7 +13,7 @@ nav:
   - Home: index.md
   - About Me: aboutme/index.md
   - Portfolio Overview: portfolio-overview.md
-  - Assignments:
+  - Engineering Deliverables:
       - A1: assignments/A01/index.md
       - A2: assignments/A02/index.md
       - A3: assignments/A03/index.md
