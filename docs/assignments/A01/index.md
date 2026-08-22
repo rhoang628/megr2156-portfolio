@@ -1,7 +1,17 @@
 # A1 – Build Your Professional Portfolio
 
-## Objective
+## Decide
 
+**1. Homepage Identity**
+The homepage serves as an immediate, professional entry point for any visiting engineer or grader. It is designed to quickly orient the reader by outlining the portfolio's scope and explaining the Analyze/Decide/Communicate framework used to organize the documentation. By keeping personal biography in the separate "About Me" section, the homepage respects the reader's time and instantly establishes that the following pages are rigorous, technical deliverables rather than casual reflections.
+
+**2. One Intentional Customization**
+I intentionally changed the default navigation label from "Assignments" to "Engineering Deliverables" and updated the nested links to reflect the exact project titles (e.g., "A3: Parametric and FEA"). The default label implied standard academic homework, which failed to reflect the technical nature of the work. This modification functionally improves the site by accurately setting the reader's expectations for professional rigor and allowing them to navigate directly to specific design analyses without guessing the contents of an ambiguous "A3" tab.
+
+**3. Documentation Standard**
+Every design decision will be supported by explicitly stated criteria and annotated visual evidence, ensuring my engineering rationale is immediately clear and verifiable to any reviewer.
+
+## Objective
 
 ## Analyze
 ### Task A: Portfolio Analysis  
@@ -60,7 +70,6 @@ This component consists of a central helical coil with two extended, straight ti
 ##### ii. Design Decision
 A key engineering decision is the inclusion of multiple scallops (concave cutouts) of varying radii on the inner jaws. This allows the device to stably seat objects of vastly different diameters (e.g., thin wire vs. thick rope). These specific seats prevent lateral slipping, which would inevitably occur with perfectly flat jaw faces.
 
-## Decide
 
 
 ## Communicate
