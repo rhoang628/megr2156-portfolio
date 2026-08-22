@@ -14,14 +14,14 @@ nav:
   - About Me: aboutme/index.md
   - Portfolio Overview: portfolio-overview.md
   - Engineering Deliverables:
-      - A1: assignments/A01/index.md
+      - "A1: Create Portfolio": assignments/A01/index.md
       - A2: assignments/A02/index.md
-      - A3: assignments/A03/index.md
-      - A4: assignments/A04/index.md
-      - A5: assignments/A05/index.md
-      - A6: assignments/A06/index.md
-      - A7: assignments/A07/index.md
-      - A8: assignments/A08/index.md
-      - A9: assignments/A09/index.md
-      - A10: assignments/A10/index.md
-      - A11: assignments/A11/index.md
+      - "A3: Parametric and FEA": assignments/A03/index.md
+      - "A4: Motor Mount": assignments/A04/index.md
+      - "A5: Bracket Design": assignments/A05/index.md
+      - "A6: Bracket Drawing (Drawings Part 1)": assignments/A06/index.md
+      - "A7: FEA on Bracket": assignments/A07/index.md
+      - "A8: Gear Box Design": assignments/A08/index.md
+      - "A9: Pulley System Design": assignments/A09/index.md
+      - "A10: Lead Screw Design": assignments/A10/index.md
+      - "A11: Motor Selection Design": assignments/A11/index.md
