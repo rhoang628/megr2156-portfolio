@@ -31,7 +31,7 @@ I am a very hands-on person who likes to collaborate with a team to solve proble
 
 I am working to become the kind of engineer who is both creative and detail-oriented. I am always curious and eager to pick up new skills on every project. I know that missing a small detail can cause a major failure, so I am constantly practicing how to back up my physical models with solid math. Ultimately, I want to build a career working on advanced mechanical systems alongside a team that pushes the limits of aerospace technology.
 
-**Defending an Engineering Decision**
+**Defending an Engineering Decision**  
 Defending a decision means taking personal bias out of the equation and backing up your choices with math, physics, and objective facts. It means showing your work clearly enough that another engineer can check it and understand exactly why a design is the safest option without having to ask you questions. Do I know how to do this perfectly right now? Honestly, I am still learning. I am good at catching math errors and checking my units, but I am still figuring out how to put all of that into clear, professional documentation. I know how to find the right answer, but this semester I am focused on getting better at explaining the reasoning to other people.
 
 **Time Spent**  
