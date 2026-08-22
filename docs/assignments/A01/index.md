@@ -11,8 +11,6 @@ I intentionally changed the default navigation label from "Assignments" to "Engi
 **3. Documentation Standard**
 Every design decision will be supported by explicitly stated criteria and annotated visual evidence, ensuring my engineering rationale is immediately clear and verifiable to any reviewer.
 
-## Objective
-
 ## Analyze
 ### Task A: Portfolio Analysis  
 1. Jacob V. Shankel's [Portfolio](https://github.com/jshank523/jvs-portfolio)  
