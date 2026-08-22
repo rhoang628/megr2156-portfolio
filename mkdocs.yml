@@ -15,7 +15,7 @@ nav:
   - Portfolio Overview: portfolio-overview.md
   - Engineering Deliverables:
       - "A1: Create Portfolio": assignments/A01/index.md
-      - A2: assignments/A02/index.md
+      - "A2: Design with Basic Stress": assignments/A02/index.md
       - "A3: Parametric and FEA": assignments/A03/index.md
       - "A4: Motor Mount": assignments/A04/index.md
       - "A5: Bracket Design": assignments/A05/index.md
