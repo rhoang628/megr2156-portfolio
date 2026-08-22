@@ -2,8 +2,6 @@
 
 ![Randy Hoang - MEGR 2156 Portfolio](MEGR2156title.png)
 
-This site is the working record of your engineering design decisions across MEGR 2156. Every entry follows the Analyze, Decide, Communicate structure in accordance with standard engineering documentation practice, so a reader can see not just what you built, but how and why you built it that way. Engineering documentation is a skill developed through deliberate practice. Each assignment is an opportunity to improve the precision, clarity, and professional quality of how you record and defend your work. As you progress through the semester your engineering capability will grow alongside your documentation — this portfolio is the record of that journey.
-
 ## About Me  
 My name is Randy Hoang, and I am a mechanical engineering student driven by a lifelong fascination with aerospace exploration and the meticulous design required to operate in extreme environments. My aspiration to contribute to the aerospace sector and organizations like NASA fundamentally shaped my path into mechanical engineering. I am drawn to the unique challenge of translating complex theoretical physics into robust, physical hardware that can withstand demanding conditions and execute highly precise maneuvers.  
 
@@ -16,6 +14,8 @@ To defend an engineering decision means to remove personal preference from the e
 
 **Time Spent**  
 I spent exactly 12+ hours completing this assignment.  
+
+This site is the working record of your engineering design decisions across MEGR 2156. Every entry follows the Analyze, Decide, Communicate structure in accordance with standard engineering documentation practice, so a reader can see not just what you built, but how and why you built it that way. Engineering documentation is a skill developed through deliberate practice. Each assignment is an opportunity to improve the precision, clarity, and professional quality of how you record and defend your work. As you progress through the semester your engineering capability will grow alongside your documentation — this portfolio is the record of that journey.
 
 > **Engineering is the art of making decisions you can defend.**
 
