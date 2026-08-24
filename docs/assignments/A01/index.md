@@ -70,7 +70,6 @@ A key engineering decision is the inclusion of multiple scallops (concave cutout
 
 
 
-## Communicate
 
 <script>
   MathJax = {
