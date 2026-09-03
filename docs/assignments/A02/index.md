@@ -131,3 +131,36 @@ A 3D parametric model of the truss structure was generated using CAD software. T
 ## Engineering Lessons Learned  
 The design process demonstrated how critical maximum internal force iterations dictate material cross-section selection when applying stringent safety factor thresholds. Balancing analytical stress equations with manufacturing constraints highlighted the necessity of accounting for single-shear stress concentrations early in the spatial layout phase. Furthermore, integrating hand calculations with parametric 3D CAD modeling verified that maintaining consistent cross-sectional areas at pin joint intersections prevents localized geometric interference while preserving structural stability. Accurately translating material yield limits into allowable stress boundaries ensures that structural components withstand operational loading conditions without experiencing premature failure or excessive weight penalties.  
 
+<div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
+  
+  <!-- PDF Report Download Button -->
+  <a href="MEGR 2156.pdf" download="MEGR 2156.pdf" style="
+    background-color: #d32f2f; 
+    color: white; 
+    text-decoration: none;
+    padding: 12px 22px; 
+    font-size: 0.95em; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    display: inline-block;
+    transition: background-color 0.2s;">
+    📕 Download Truss Work PDF
+  </a>
+
+  <!-- ZIP Archive Download Button -->
+  <a href="A2.zip" download="A2.zip" style="
+    background-color: #f57c00; 
+    color: white; 
+    text-decoration: none;
+    padding: 12px 22px; 
+    font-size: 0.95em; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    display: inline-block;
+    transition: background-color 0.2s;">
+    📦 Download CAD File .zip
+  </a>
+
+</div>
