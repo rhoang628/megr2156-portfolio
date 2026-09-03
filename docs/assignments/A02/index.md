@@ -54,8 +54,8 @@ To determine the safety boundaries, hand calculations were performed to track kn
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <a href="Pin_Shear_FBD.jpg" target="_blank">
-      <img src="Pin_Shear_FBD.jpg" alt="Pin Shear FBD" width="385" height="230" style="cursor: pointer;">
+    <a href="Screenshot_34.jpg" target="_blank">
+      <img src="Screenshot_34.jpg" alt="Pin Shear FBD" width="385" height="230" style="cursor: pointer;">
     </a>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Critical Pin Free Body Diagram and Shear Planes
@@ -67,28 +67,61 @@ To determine the safety boundaries, hand calculations were performed to track kn
 A 3D parametric model of the truss structure was generated using CAD software. The framework was constructed to track the exact mathematical values calculated during the sizing phase.  
 
 <div align="center">
+  <p><small>***(Clicking on the images will enlarge them)***</small></p>
 
-  <!-- Left Screenshot Container -->
-  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <a href="CAD_Assembly_Rendering.jpg" target="_blank">
-      <img src="CAD_Assembly_Rendering.jpg" alt="CAD Assembly Rendering" width="419" height="280" style="cursor: pointer;">
-    </a>
-    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Parametric CAD Assembly Isometric View
-    </figcaption>
-  </figure>
+  <!-- ROW 1 -->
+  <div style="display: block; margin-bottom: 10px;">
+    <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
+      <a href="Screenshot_35.jpg" target="_blank">
+        <img src="Screenshot_35.jpg" alt="CAD Step 1" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
+      </a>
+    </figure>
+    <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
+      <a href="Screenshot_36.jpg" target="_blank">
+        <img src="Screenshot_36.jpg" alt="CAD Step 2" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
+      </a>
+    </figure>
+    <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
+      <a href="Screenshot_27.jpg" target="_blank">
+        <img src="Screenshot_27.jpg" alt="CAD Step 3" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
+      </a>
+    </figure>
+    <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
+      <a href="Screenshot_26.jpg" target="_blank">
+        <img src="Screenshot_26.jpg" alt="CAD Step 4" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
+      </a>
+    </figure>
+  </div>
 
-  <!-- Right Screenshot Container -->
-  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <a href="CAD_Mass_Props.jpg" target="_blank">
-      <img src="CAD_Mass_Props.jpg" alt="CAD Mass Properties Verification" width="419" height="280" style="cursor: pointer;">
-    </a>
-    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Mass Properties and Weight Verification Window
-    </figcaption>
-  </figure>
+  <!-- ROW 2 -->
+  <div style="display: block; margin-bottom: 5px;">
+    <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
+      <a href="Screenshot_30.jpg" target="_blank">
+        <img src="Screenshot_30.jpg" alt="CAD Step 5" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
+      </a>
+    </figure>
+    <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
+      <a href="Screenshot_31.jpg" target="_blank">
+        <img src="Screenshot_31.jpg" alt="CAD Step 6" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
+      </a>
+    </figure>
+    <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
+      <a href="Screenshot_28.jpg" target="_blank">
+        <img src="Screenshot_28.jpg" alt="CAD Step 7" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
+      </a>
+    </figure>
+    <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
+      <a href="Screenshot_29.jpg" target="_blank">
+        <img src="Screenshot_29.jpg" alt="CAD Step 8" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
+      </a>
+    </figure>
+  </div>
 
-</div>  
+  <!-- Unified Label for the Grid -->
+  <p style="font-size: 0.85em; color: gray; margin-top: 5px; text-align: center;">
+    Process from design to assembly
+  </p>
+</div>
 
 *   The truss framework (excluding connecting hardware) was successfully modeled as a single integrated part file.  
 *   Connecting pins were modeled as discrete cylinders matching the calculated cross-sectional areas and an individual length of 50 mm, maintaining exact alignment.  
@@ -97,17 +130,4 @@ A 3D parametric model of the truss structure was generated using CAD software. T
 
 ## Engineering Lessons Learned  
 The design process demonstrated how critical maximum internal force iterations dictate material cross-section selection when applying stringent safety factor thresholds. Balancing analytical stress equations with manufacturing constraints highlighted the necessity of accounting for single-shear stress concentrations early in the spatial layout phase. Furthermore, integrating hand calculations with parametric 3D CAD modeling verified that maintaining consistent cross-sectional areas at pin joint intersections prevents localized geometric interference while preserving structural stability. Accurately translating material yield limits into allowable stress boundaries ensures that structural components withstand operational loading conditions without experiencing premature failure or excessive weight penalties.  
-
-## Resources   
-
-All reference materials and CAD files used for this portfolio piece:    
-
-<ul style="list-style-type: circle !important; padding-left: 20px;">
-  <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    <a href="Planar_Truss_System.asm" download>Planar_Truss_System.asm (CAD Assembly File)</a>
-  </li>
-  <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    <a href="Truss_Calculations_Spreadsheet.xlsx" download>Truss_Calculations_Spreadsheet.xlsx (Analytical Model)</a>
-  </li>
-</ul>
 
