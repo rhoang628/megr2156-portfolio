@@ -5,8 +5,8 @@ Comprehensive technical documentation establishes a transparent engineering base
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <a href="System_Overview.jpg" target="_blank">
-      <img src="System_Overview.jpg" alt="Truss System Overview" width="385" height="250" style="cursor: pointer;">
+    <a href="System_Overview.png" target="_blank">
+      <img src="System_Overview.png" alt="Truss System Overview" width="385" height="250" style="cursor: pointer;">
     </a>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Truss Configuration and System Overview Diagram
