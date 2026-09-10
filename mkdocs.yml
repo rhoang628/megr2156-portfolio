@@ -24,3 +24,12 @@ nav:
       - "A9: Pulley System Design": assignments/A09/index.md
       - "A10: Lead Screw Design": assignments/A10/index.md
       - "A11: Motor Selection Design": assignments/A11/index.md
+
+plugins:
+  - search
+  - glightbox
+  - mkdocs-video
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
