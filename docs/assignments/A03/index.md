@@ -2,9 +2,6 @@
 
 <small>***(Clicking on the images will enlarge them)***</small>
 
-[Download my Creo CAD Part File (.prt) Here](Insert_CAD_Google_Drive_Link_Here)  
-[Download my Scanned Hand Calculations & Written Work PDF Here](Insert_PDF_Link_Here)
-
 ## 1. Parametric Design & Geometry Setup
 For this assignment, I needed to figure out the minimum length of a bar under direct tension using parametric equations, making sure the axial deflection didn't exceed 0.009 inches. The assignment description mentioned a "circular cross section," but the rubric strictly graded on designing a "cantilever hollow box beam" and defining width, height, and thickness. To hit the rubric's requirements, I went with a square hollow structural section (HSS). 
 
@@ -135,6 +132,40 @@ I also learned a lot about how material definitions work in Creo. When inputting
 *   FEA Setup, Material Assignment, & Runs: 45 minutes
 *   Portfolio Documentation: 45 minutes
 *   **Total Time:** 3 hours
+
+<div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
+  
+  <!-- PDF Report Download Button -->
+  <a href="MEGR 2156 A3.pdf" download="MEGR 2156 A3.pdf" style="
+    background-color: #d32f2f; 
+    color: white; 
+    text-decoration: none;
+    padding: 12px 22px; 
+    font-size: 0.95em; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    display: inline-block;
+    transition: background-color 0.2s;">
+    📕 Download Truss Work PDF
+  </a>
+
+  <!-- ZIP Archive Download Button -->
+  <a href="cantilevered_hollow_box_beam.prt.1" download="cantilevered_hollow_box_beam.prt.1" style="
+    background-color: #f57c00; 
+    color: white; 
+    text-decoration: none;
+    padding: 12px 22px; 
+    font-size: 0.95em; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    display: inline-block;
+    transition: background-color 0.2s;">
+    📦 Download CAD File .prt
+  </a>
+
+</div>
 
 ## Resources
 All design, simulation, and documentation work was done using:
