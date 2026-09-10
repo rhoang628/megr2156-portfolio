@@ -177,6 +177,17 @@ All design, simulation, and documentation work was done using:
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     PTC Creo Simulate
   </li>
+
+  <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     Machinery's Handbook (Equations & Stress Concentration Factors)
   </li>
