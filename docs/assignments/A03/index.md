@@ -1,4 +1,4 @@
-# Portfolio Assignment – Cantilevered Hollow Box Beam
+# A3: Parametric and FEA
 
 <small>***(Clicking on the images will enlarge them)***</small>
 
@@ -147,7 +147,7 @@ I also learned a lot about how material definitions work in Creo. When inputting
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     display: inline-block;
     transition: background-color 0.2s;">
-    📕 Download Truss Work PDF
+    📕 Download Hand Calculations PDF
   </a>
 
   <!-- ZIP Archive Download Button -->
