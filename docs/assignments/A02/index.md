@@ -5,14 +5,12 @@ Comprehensive technical documentation establishes a transparent engineering base
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <a href="System_Overview.png" target="_blank">
-      <img src="System_Overview.png" alt="Truss System Overview" width="385" height="250" style="cursor: pointer;">
-    </a>
+    <img src="System_Overview.png" alt="Truss System Overview" width="385" height="250" style="cursor: pointer;">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Truss Configuration and System Overview Diagram
     </figcaption>
   </figure>
-</div>  
+</div>
 
 ## Truss Geometry & Static Analysis  
 ### Geometry & Element Layout  
@@ -27,9 +25,7 @@ Internal forces were solved symbolically across the joint equilibrium equations 
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <a href="Screenshot_33.jpg" target="_blank">
-      <img src="Screenshot_33.jpg" alt="Joint FBD Sketches" width="385" height="240" style="cursor: pointer;">
-    </a>
+    <img src="Screenshot_33.jpg" alt="Joint FBD Sketches" width="385" height="240" style="cursor: pointer;">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Free Body Diagrams and Equilibrium Framework for Node C
     </figcaption>
@@ -54,9 +50,7 @@ To determine the safety boundaries, hand calculations were performed to track kn
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <a href="Screenshot_34.jpg" target="_blank">
-      <img src="Screenshot_34.jpg" alt="Pin Shear FBD" width="385" height="230" style="cursor: pointer;">
-    </a>
+    <img src="Screenshot_34.jpg" alt="Pin Shear FBD" width="385" height="230" style="cursor: pointer;">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Critical Pin Free Body Diagram and Shear Planes
     </figcaption>
@@ -67,55 +61,45 @@ To determine the safety boundaries, hand calculations were performed to track kn
 A 3D parametric model of the truss structure was generated using CAD software. The framework was constructed to track the exact mathematical values calculated during the sizing phase.  
 
 <div align="center">
-  <p><small>***(Clicking on the images will enlarge them)***</small></p>
+  <p><small>***(Click on any image to zoom)***</small></p>
 
   <!-- ROW 1 -->
   <div style="display: block; margin-bottom: 10px;">
     <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
-      <a href="Screenshot_35.jpg" target="_blank">
-        <img src="Screenshot_35.jpg" alt="CAD Step 1" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
-      </a>
+      <img src="Screenshot_35.jpg" alt="CAD Step 1" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
     </figure>
     <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
-      <a href="Screenshot_36.jpg" target="_blank">
-        <img src="Screenshot_36.jpg" alt="CAD Step 2" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
-      </a>
+      <img src="Screenshot_36.jpg" alt="CAD Step 2" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
     </figure>
     <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
-      <a href="Screenshot_27.jpg" target="_blank">
-        <img src="Screenshot_27.jpg" alt="CAD Step 3" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
-      </a>
+      <img src="Screenshot_27.jpg" alt="CAD Step 3" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
     </figure>
     <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
-      <a href="Screenshot_26.jpg" target="_blank">
-        <img src="Screenshot_26.jpg" alt="CAD Step 4" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
-      </a>
+      <img src="Screenshot_26.jpg" alt="CAD Step 4" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
     </figure>
   </div>
 
   <!-- ROW 2 -->
   <div style="display: block; margin-bottom: 5px;">
     <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
-      <a href="Screenshot_30.jpg" target="_blank">
-        <img src="Screenshot_30.jpg" alt="CAD Step 5" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
-      </a>
+      <img src="Screenshot_30.jpg" alt="CAD Step 5" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
     </figure>
     <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
-      <a href="Screenshot_31.jpg" target="_blank">
-        <img src="Screenshot_31.jpg" alt="CAD Step 6" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
-      </a>
+      <img src="Screenshot_31.jpg" alt="CAD Step 6" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
     </figure>
     <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
-      <a href="Screenshot_28.jpg" target="_blank">
-        <img src="Screenshot_28.jpg" alt="CAD Step 7" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
-      </a>
+      <img src="Screenshot_28.jpg" alt="CAD Step 7" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
     </figure>
     <figure style="display: inline-block; margin: 5px; vertical-align: top; width: 22%;">
-      <a href="Screenshot_29.jpg" target="_blank">
-        <img src="Screenshot_29.jpg" alt="CAD Step 8" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
-      </a>
+      <img src="Screenshot_29.jpg" alt="CAD Step 8" width="100%" style="cursor: pointer; max-width: 200px; height: auto;">
     </figure>
   </div>
+
+  <!-- Unified Label for the Grid -->
+  <p style="font-size: 0.85em; color: gray; margin-top: 5px; text-align: center;">
+    Process from design to assembly
+  </p>
+</div>
 
   <!-- Unified Label for the Grid -->
   <p style="font-size: 0.85em; color: gray; margin-top: 5px; text-align: center;">
