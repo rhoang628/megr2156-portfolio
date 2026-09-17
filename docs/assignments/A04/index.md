@@ -165,31 +165,6 @@ The completed model integrates the motor recess counterbore, diagonal mounting h
 
 ---
 
-## 3. Manufacturing & Slicing Optimization
-Before exporting to the printer, I evaluated how the part sits in PrusaSlicer for the Prusa CORE One.
-
-<div align="center">
-  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_12.jpg" alt="PrusaSlicer Orientation" width="650">
-    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Side-orientation print setup in PrusaSlicer
-    </figcaption>
-  </figure>
-</div>
-
-Laying the bracket flat on its side aligns the PLA layer lines parallel to the $300\text{ N}$ bending force, completely eliminating delamination risks and removing the need for support material.
-
-<div align="center">
-  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_13.jpg" alt="Final Rendered Assembly Look" width="650">
-    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Final rendered model showing clean integration of the motor recess and gussets
-    </figcaption>
-  </figure>
-</div>
-
----
-
 ## 4. Design Reflection & Analytical Comparison
 My initial calculation called for a flat $16\text{ mm}$ wall, but that would have completely swallowed the $18\text{ mm}$ motor shaft. Iterating the model to include a $12\text{ mm}$ deep rear counterbore successfully solved shaft clearance while retaining structural rigidity at the base where bending stresses peak. 
 
