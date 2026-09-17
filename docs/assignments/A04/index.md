@@ -219,7 +219,7 @@ All design, slicing, and documentation work was done using:
     PTC Creo Parametric
   </li>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    PrusaSlicer & Prusa CORE One
+    <a href="https://www.omc-stepperonline.com/brushed-24v-dc-gear-motor-3-6kg-cm-46rpm-w-99-5-1-planetary-gearbox-pa28-28245800-g100" target="_blank" style="color: inherit; text-decoration: underline;">StepperOnline 28mm Planetary Gear Motor Datasheet</a>
   </li>
   <script>
   MathJax = {
