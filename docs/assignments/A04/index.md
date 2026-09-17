@@ -1,5 +1,4 @@
 # A4: Motor Mount Design
-**Student:** Randy Hoang
 
 <small>***(Clicking on the images will enlarge them)***</small>
 
