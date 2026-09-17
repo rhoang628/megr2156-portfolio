@@ -96,40 +96,69 @@ On the floor of the recess pocket, I added a $6.5\text{ mm}$ central shaft hole 
 </div>
 
 ### Step 6: Base Mounting Slots
-I added two $3.4\text{ mm}$ wide mounting slots to the horizontal base plate and cut them through all.
+I sketched and cut two $3.4\text{ mm}$ wide mounting slots into the horizontal base plate for secure floor anchoring.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_8.jpg" alt="Base Mounting Slots" width="650">
+    <img src="Screenshot_8.jpg" alt="Base Mounting Slots Sketch" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Slotted floor mounting holes on the base plate
+      Sketching base mounting slots on the horizontal plate
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="Screenshot_9.jpg" alt="Base Mounting Slots Extrude" width="450">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Extruding the slots through the base plate
     </figcaption>
   </figure>
 </div>
 
-### Step 7: Gussets and Fillets
-To drastically increase corner rigidity, I added $4 \times 4\text{ mm}$ triangular gussets to both inner sides using the Mirror tool, and applied $2\text{ mm}$ rounds to internal sharp corners.
+### Step 7: Triangular Gusset Profile
+To drastically increase corner rigidity, I sketched a $4 \times 4\text{ mm}$ right-angled triangle in the inner corner where the vertical and horizontal walls meet.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_9.jpg" alt="Gusset Sketch" width="450">
+    <img src="Screenshot_10.jpg" alt="Gusset Sketch" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      4x4 mm triangular gusset profile
+      4x4 mm triangular gusset profile sketch
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_10.jpg" alt="Mirrored Gussets" width="450">
+    <img src="Screenshot_11.jpg" alt="Gusset Extrusion" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Symmetrically mirrored gussets
+      Extruding the initial gusset profile inward
     </figcaption>
   </figure>
 </div>
 
+### Step 8: Stress-Relief Rounds & Mirroring
+I applied $2\text{ mm}$ rounds to internal sharp corners to reduce stress concentrations, and used the Mirror tool to duplicate the gusset to the opposite side.
+
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_11.jpg" alt="Final Filleted Model" width="650">
+    <img src="Screenshot_12.jpg" alt="Rounds and Fillets" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Completed L-bracket model with 2 mm stress-relief rounds
+      Applying 2 mm stress-relief rounds
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="Screenshot_13.jpg" alt="Mirrored Feature" width="450">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Mirroring the gusset across the central datum plane
+    </figcaption>
+  </figure>
+</div>
+
+---
+
+## 3. Manufacturing & Final Product
+The completed model integrates the motor recess counterbore, diagonal mounting hole pattern, base slots, and reinforced corner gussets into a single parametric part.
+
+<div align="center">
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="Screenshot_14.jpg" alt="Final Rendered Product" width="650">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Final rendered model of the high-rigidity L-bracket motor mount
     </figcaption>
   </figure>
 </div>
