@@ -6,11 +6,11 @@
 For this assignment, I designed a structural bracket to secure a polyester strap to a rigid T-beam. The design required tracking the load path through five distinct features (A through E), passing reaction forces sequentially. 
 
 **Global Constraints:**
-*   **Material:** Aluminum 6061-T6 ($S_y = 40,000\text{ psi}$, $E = 10 \times 10^6\text{ psi}$)
-*   **Applied Load:** $W = 600\text{ lbf}$ (Satisfying the $500 < F < 800\text{ lbf}$ requirement)
-*   **Safety Factor:** $SF = 4$ ($\sigma_{allow} = 10,000\text{ psi}$)
-*   **Deflection Limit:** $\delta = 0.005\text{ in}$ maximum per feature
-*   **Assumption:** Shear deflections are negligible, and loads split symmetrically through the side walls.
+*   **Material:** Aluminum 6061-T6 ($S_y = 40,000\text{ psi}$, $E = 10 \times 10^6\text{ psi}$)  
+*   **Applied Load:** $W = 600\text{ lbf}$ (Satisfying the $500 < F < 800\text{ lbf}$ requirement)  
+*   **Safety Factor:** $SF = 4$ ($\sigma_{allow} = 10,000\text{ psi}$)  
+*   **Deflection Limit:** $\delta = 0.005\text{ in}$ maximum per feature  
+*   **Assumption:** Shear deflections are negligible, and loads split symmetrically through the side walls.  
 
 ---
 
