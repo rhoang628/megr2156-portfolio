@@ -1,4 +1,4 @@
-# A5: Bracket Design – Design for Strength and Stiffness I
+# A5: Bracket Design
 
 <small>***(Clicking on the images will enlarge them)***</small>
 
