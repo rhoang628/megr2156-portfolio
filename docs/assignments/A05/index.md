@@ -30,9 +30,15 @@ $$r = \sqrt[4]{\frac{600 \cdot (1.0)^3}{2\pi \cdot 10^7 \cdot 0.005}} = 0.209\te
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="FBD_FeatureA_Stress.jpg" alt="Feature A FBD" width="450">
+    <img src="FBD_FeatureA_Stress.jpg" alt="Feature A Stress Analysis" width="420">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Free Body Diagram: Uniform distributed load (600 lbf) on a cantilever beam.
+      Feature A: Free Body Diagram & Stress Calculations
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="FBD_FeatureA_Stiffness.jpg" alt="Feature A Stiffness Analysis" width="420">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Feature A: Deflection & Stiffness Calculations
     </figcaption>
   </figure>
 </div>
@@ -49,9 +55,15 @@ $$t = \frac{P l}{w \cdot E \cdot \delta} = \frac{600 \cdot 1.5}{0.75 \cdot 10^7 
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="FBD_FeatureB_Stress.jpg" alt="Feature B FBD" width="450">
+    <img src="FBD_FeatureB_Stress.jpg" alt="Feature B Stress Analysis" width="420">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Free Body Diagram: Pure axial tension load (600 lbf).
+      Feature B: Free Body Diagram & Stress Calculations
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="FBD_FeatureB_Stiffness.jpg" alt="Feature B Stiffness Analysis" width="420">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Feature B: Deflection & Stiffness Calculations
     </figcaption>
   </figure>
 </div>
@@ -69,9 +81,15 @@ $$t = \sqrt[3]{\frac{600 \cdot (2.5)^3}{4 \cdot 1.0 \cdot 10^7 \cdot 0.005}} = 0
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="FBD_FeatureC_Stress.jpg" alt="Feature C FBD" width="450">
+    <img src="FBD_FeatureC_Stress.jpg" alt="Feature C Stress Analysis" width="420">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Free Body Diagram: Concentrated center load on a simply supported beam.
+      Feature C: Free Body Diagram & Stress Calculations
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="FBD_FeatureC_Stiffness.jpg" alt="Feature C Stiffness Analysis" width="420">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Feature C: Deflection & Stiffness Calculations
     </figcaption>
   </figure>
 </div>
@@ -88,9 +106,15 @@ $$t = \frac{P_{wall} \cdot l}{w \cdot E \cdot \delta} = \frac{300 \cdot 1.5}{1.0
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="FBD_FeatureD_Stress.jpg" alt="Feature D FBD" width="450">
+    <img src="FBD_FeatureD_Stress.jpg" alt="Feature D Stress Analysis" width="420">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Free Body Diagram: Axial tensile load on side wall (300 lbf).
+      Feature D: Free Body Diagram & Stress Calculations
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="FBD_FeatureD_Stiffness.jpg" alt="Feature D Stiffness Analysis" width="420">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Feature D: Deflection & Stiffness Calculations
     </figcaption>
   </figure>
 </div>
@@ -107,9 +131,15 @@ $$t = \sqrt[3]{\frac{4 \cdot 300 \cdot (1.0)^3}{1.0 \cdot 10^7 \cdot 0.005}} = 0
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="FBD_FeatureE_Stress.jpg" alt="Feature E FBD" width="450">
+    <img src="FBD_FeatureE_Stress.jpg" alt="Feature E Stress Analysis" width="420">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Free Body Diagram: Point load on a cantilever top flange (300 lbf).
+      Feature E: Free Body Diagram & Stress Calculations
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="FBD_FeatureE_Stiffness.jpg" alt="Feature E Stiffness Analysis" width="420">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Feature E: Deflection & Stiffness Calculations
     </figcaption>
   </figure>
 </div>
@@ -120,15 +150,6 @@ $$t = \sqrt[3]{\frac{4 \cdot 300 \cdot (1.0)^3}{1.0 \cdot 10^7 \cdot 0.005}} = 0
 
 ### Multiview Sketching (Stress-Driven Design)
 Using the governing values from the strength calculations, the physical multiview paper sketches detail the "Stress-Driven" profile (Sketch 1). The design features a heavily reinforced horizontal bridge ($0.474\text{ in}$ thick), thick top flanges ($0.424\text{ in}$ thick), and a solid vertical link ($0.080\text{ in}$ thick). 
-
-<div align="center">
-  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Appendix_B_2.png" alt="Stress-Driven Reference Concept" width="650">
-    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Appendix B: Reference visualization of the bracket featuring the stress-governed dimensional proportions.
-    </figcaption>
-  </figure>
-</div>
 
 ### T-Beam Fit Tolerances
 To ensure the bracket physically mounts to the T-beam correctly, I utilized the ANSI/ASME Standard Limits and Fits from the *Machinery’s Handbook* to define three distinct fit classes across the upper body dimensions:
@@ -160,11 +181,11 @@ Catching the exact horizontal span for Feature C was critical. I initially mista
   
   <!-- Embedded PDF Viewer -->
   <div style="max-width: 800px; margin: 0 auto 15px auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <embed src="A5_Bracket_Design_Hoang.pdf" width="100%" height="500px" type="application/pdf">
+    <embed src="A5-Bracket Design.pdf" width="100%" height="500px" type="application/pdf">
   </div>
 
   <!-- PDF Report Download Button -->
-  <a href="A5_Bracket_Design_Hoang.pdf" download="A5_Bracket_Design_Hoang.pdf" style="
+  <a href="A5-Bracket Design.pdf" download="A5_Bracket_Design_Hoang.pdf" style="
     background-color: #d32f2f; 
     color: white; 
     text-decoration: none;
