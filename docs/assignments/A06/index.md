@@ -234,8 +234,8 @@ All design, modeling, and documentation work was completed using:
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     PTC Creo Parametric
   </li>
-  <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    <a href="[https://www.uline.com/Product/Detail/S-12925/Poly-Cord-Strapping/Heavy-Duty-Polyester-Cord-Strapping-3-4-x-2500](https://www.uline.com/Product/Detail/S-12925/Poly-Cord-Strapping/Heavy-Duty-Polyester-Cord-Strapping-3-4-x-2500)" target="_blank" style="color: inherit; text-decoration: underline;">Uline Heavy-Duty Polyester Cord Strapping Datasheet</a>
+  <li style="margin-bottom: 4px;">
+    <a href="https://www.uline.com/Product/Detail/S-12925/Poly-Cord-Strapping/Heavy-Duty-Polyester-Cord-Strapping-3-4-x-2500" target="_blank" rel="noopener noreferrer">Uline Heavy-Duty Polyester Cord Strapping Datasheet</a>
   </li>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     Machinery's Handbook (Standard Drafting Practices & Machine Fits)
