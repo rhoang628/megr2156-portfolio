@@ -55,26 +55,26 @@ T_C = sqrt((6 * 375) / (1.0 * 10000))
   </figure>
 </div>
 
-### Step 2: Sketching Upper C-Channel Profile
+### Step 2: Sketching Upper Bracket Profile
 I sketched the symmetric upper channel on the Front Plane, applying equality constraints and binding sketch dimensions directly to parameters `=T_C` ($0.474\text{ in}$), `=T_D` ($0.030\text{ in}$), and `=T_E` ($0.424\text{ in}$).
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_2.jpg" alt="Upper Channel Sketch" width="650">
+    <img src="Screenshot_2.jpg" alt="Upper Bracket Sketch" width="650">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Fully dimensioned symmetric C-channel sketch
+      Fully dimensioned symmetric upper bracket sketch
     </figcaption>
   </figure>
 </div>
 
-### Step 3: Extruding Upper Channel
+### Step 3: Extruding Upper Bracket
 I extruded the profile using a **Symmetric** depth option bound to `=bracket_depth` ($1.000\text{ in}$).
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_3.jpg" alt="Channel Extrusion" width="650">
+    <img src="Screenshot_3.jpg" alt="Bracket Extrusion" width="650">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Extruding the channel profile to 1.00 inch depth
+      Extruding the bracket profile to 1.00 inch depth
     </figcaption>
   </figure>
 </div>
@@ -137,10 +137,10 @@ With all features constructed, the complete 3D parametric part model was verifie
 
 ## 3. Tolerancing & Fit Class Integration
 
-The drawing incorporates three distinct ANSI fit classes for the T-slot gap interfacing with the rigid T-beam:
+The drawing incorporates three distinct fit classes for the upper bracket slot interfacing with the rigid T-beam:
 
-* **Class "a" Fit (Clearance):** Applied to internal vertical slot height to prevent vertical binding.
-* **Class "b" Fit (Free-Running):** Applied to internal width between side walls (`T_D`) for smooth axial sliding.
+* **Class "a" Fit (Clearance):** Applied to internal vertical slot height to prevent vertical binding against the T-beam.
+* **Class "b" Fit (Free-Running):** Applied to internal width between side walls (`T_D`) for smooth axial sliding along the flange.
 * **Class "c" Fit (Accurate Location):** Applied to top flange gap (`T_E`) for precision alignment under cantilever loading.
 
 ```text
