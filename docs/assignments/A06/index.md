@@ -174,7 +174,7 @@ Anchoring sketch geometry to primary datum planes (Front, Top, Right) rather tha
 <div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
 
   <!-- PDF Report Download Button -->
-  <a href="A6_Bracket_Drawing.pdf" download="A6_Bracket_Drawing.pdf" style="
+  <a href="bracket_drawing.pdf" download="bracket_drawing.pdf" style="
     background-color: #d32f2f; 
     color: white; 
     text-decoration: none;
@@ -189,7 +189,7 @@ Anchoring sketch geometry to primary datum planes (Front, Top, Right) rather tha
   </a>
 
   <!-- CAD Part File Download Button -->
-  <a href="bracket_a6.prt" download="bracket_a6.prt" style="
+  <a href="bracket.prt" download="bracket.prt" style="
     background-color: #f57c00; 
     color: white; 
     text-decoration: none;
@@ -204,7 +204,7 @@ Anchoring sketch geometry to primary datum planes (Front, Top, Right) rather tha
   </a>
 
   <!-- CAD Drawing File Download Button -->
-  <a href="bracket_a6.drw" download="bracket_a6.drw" style="
+  <a href="bracket.drw" download="bracket.drw" style="
     background-color: #1976d2; 
     color: white; 
     text-decoration: none;
