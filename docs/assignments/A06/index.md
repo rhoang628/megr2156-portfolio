@@ -115,12 +115,18 @@ On the front face of Feature B, I sketched a circular profile bound to `=RAD_A` 
   </figure>
 </div>
 
-### Step 6: 2D Multiview Drawing & Tolerancing
-I generated a 2D engineering drawing in **Third-Angle Projection** with Front, Top, Right, and Isometric views. Tight explicit fit tolerances were applied to mating slot gaps, while general dimensions rely on the drawing title block.
+### Step 6: 3D Part Model & 2D Engineering Drawing
+With all features constructed, the complete 3D parametric part model was verified in Creo Parametric. I then generated a 2D engineering drawing in **Third-Angle Projection** with Top, Front, Right, and Isometric views, incorporating explicit fit tolerances on mating channels and title block specifications.
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_8.jpg" alt="2D Multiview Drawing" width="650">
+    <img src="Screenshot_8.jpg" alt="Final 3D CAD Model" width="450">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Final 3D parametric bracket geometry in Creo Parametric
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="Screenshot_10.jpg" alt="2D Engineering Multiview Drawing" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Fully dimensioned multiview drawing with fit tolerances and title block
     </figcaption>
