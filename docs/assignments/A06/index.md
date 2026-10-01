@@ -42,9 +42,15 @@ T_C = sqrt((6 * 375) / (1.0 * 10000))
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_1.jpg" alt="Creo Parameters & Relations" width="650">
+    <img src="Screenshot_1.jpg" alt="Creo Parameters Window" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Parametric table and relations set up in PTC Creo
+      Core global parameters established in Creo
+    </figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
+    <img src="Screenshot_9.jpg" alt="Creo Relations Window" width="450">
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
+      Entering analytical stress relation for T_C
     </figcaption>
   </figure>
 </div>
