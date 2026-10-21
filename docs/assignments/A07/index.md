@@ -136,7 +136,7 @@ The master comparison table below compiles the converged finest-mesh results for
 <div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
 
   <!-- CAD Part Files Download Button -->
-  <a href="bracket_designs_1_2_3.zip" download="bracket_designs_1_2_3.zip" style="
+  <a href="design1-3.zip" download="design1-3.zip" style="
     background-color: #1976d2; 
     color: white; 
     text-decoration: none;
