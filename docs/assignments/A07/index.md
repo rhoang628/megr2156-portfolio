@@ -313,7 +313,12 @@ All design, simulation, and documentation work was completed using:
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     Understanding the Finite Element Method - The Efficient Engineer
   </li>
-  <script>
+  <li style="list-style-type: circle !important; margin-bottom: 4px;">
+    Machinery's Handbook (Standard Structural Design & Material Properties)
+  </li>
+</ul>
+
+<script>
     MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']]
@@ -323,7 +328,3 @@ All design, simulation, and documentation work was completed using:
   <script id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
   </script>
-  <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    Machinery's Handbook (Standard Structural Design & Material Properties)
-  </li>
-</ul>
