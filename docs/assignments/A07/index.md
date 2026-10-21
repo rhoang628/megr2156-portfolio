@@ -11,20 +11,9 @@ The intent of this documentation is to capture the complete finite element analy
 - **Lightweight Strategy:** Material was selectively removed in lower-stress zones—first via parallel horizontal through-holes in the upper blocks (Design II), and subsequently via a centralized pill-shaped horizontal slot in the lower vertical web (Design III)—while preserving structural integrity around the T-slot constraints and lower load pin interface.
 - **Geometric Refinement & Lessons Learned:** Early iterations demonstrated that sharp interior corners introduce severe stress concentrations. Transitioning to smooth, rounded semicircular radii on the pill slot in Design III eliminated stress risers and distributed load trajectories evenly across the ligament boundaries.
 
-<div align="center">
-  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_1.jpg" alt="Model Properties and Material Assignment" width="450">
-    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Model properties and AL6061-T6 material assignment
-    </figcaption>
-  </figure>
-  <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_2.jpg" alt="Material Library Setup" width="450">
-    <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
-      Material library directory and property verification
-    </figcaption>
-  </figure>
-</div>
+![Model properties and AL6061-T6 material assignment](./Screenshot_1.jpg)
+*Model properties and AL6061-T6 material assignment*
+
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
