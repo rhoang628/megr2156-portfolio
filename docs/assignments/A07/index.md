@@ -13,7 +13,7 @@ The intent of this documentation is to capture the complete finite element analy
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_1.jpg" alt="Model Properties and Material Assignment" width="450">
+    <img src="docs/assignments/A07/Screenshot_1.jpg" alt="Model Properties and Material Assignment" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Model properties and AL6061-T6 material assignment
     </figcaption>
