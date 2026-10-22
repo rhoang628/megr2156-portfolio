@@ -25,7 +25,7 @@ Internal forces were solved symbolically across the joint equilibrium equations 
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_33.jpg" alt="Joint FBD Sketches" width="385" height="240" style="cursor: pointer;">
+    <img src="./Screenshot_33.jpg" alt="Joint FBD Sketches" width="385" height="240" style="cursor: pointer;">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Free Body Diagrams and Equilibrium Framework for Node C
     </figcaption>
