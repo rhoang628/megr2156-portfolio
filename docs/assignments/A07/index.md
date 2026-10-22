@@ -300,6 +300,21 @@ The master comparison table below compiles the converged finest-mesh results for
     📦 Download CAD Part Files (Design I, II, III)
   </a>
 
+<!-- Photos Archive Download Button -->
+  <a href="bracket_fea_photos.zip" download="bracket_fea_photos.zip" style="
+    background-color: #2e7d32; 
+    color: white; 
+    text-decoration: none;
+    padding: 12px 22px; 
+    font-size: 0.95em; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    display: inline-block;
+    transition: background-color 0.2s;">
+    🖼️ Download All Assignment Screenshots (.zip)
+  </a>
+
 </div>
 
 ## Resources
