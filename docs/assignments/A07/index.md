@@ -1,4 +1,4 @@
-# A7: FEA on Bracket
+# A7
 
 <small>***(Clicking on the images will enlarge them)***</small>
 
