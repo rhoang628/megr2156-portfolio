@@ -1,11 +1,11 @@
-# A7 – [Topic]
+# A7: FEA on Bracket
 
-## Objective
+<small>***(Clicking on the images will enlarge them)***</small>
 
+## 1. Documentation & Intent
 
-## Analyze
+The intent of this documentation is to capture the complete finite element analysis (FEA) and structural optimization process for the mounting bracket, extending previous work from Assignments #5 and #6. PTC Creo Simulate was utilized to drive iterative geometric optimization, ensuring high stiffness, high strength, and lightweight performance under a $600\text{ lbf}$ cantilevered load.
 
-<<<<<<< HEAD
 ### Design Thought Process & Insights
 - **Baseline Evaluation:** Initial structural evaluation of Design I revealed substantial solid mass in upper regions experiencing negligible stress utilization under bending loads.
 - **Lightweight Strategy:** Material was selectively removed in lower-stress zones—first via parallel horizontal through-holes in the upper blocks (Design II), and subsequently via a centralized pill-shaped horizontal slot in the lower vertical web (Design III)—while preserving structural integrity around the T-slot constraints and lower load pin interface.
@@ -40,15 +40,11 @@
     </figcaption>
   </figure>
 </div>
-=======
 
-## Decide
->>>>>>> parent of 3bf8b12 (Enhance A7 documentation on FEA for bracket design)
+---
 
+## 2. Preprocessing & Boundary Conditions
 
-## Communicate
-
-<<<<<<< HEAD
 To establish a consistent numerical baseline across all outer loop iterations, identical boundary conditions and material parameters were maintained throughout the study:
 
 1. **Static Stress Analysis:** Linear elastic static stress analysis conducted using PTC Creo Simulate.
@@ -332,5 +328,3 @@ All design, simulation, and documentation work was completed using:
   <script id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
   </script>
-=======
->>>>>>> parent of 3bf8b12 (Enhance A7 documentation on FEA for bracket design)
