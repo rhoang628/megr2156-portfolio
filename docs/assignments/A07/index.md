@@ -19,7 +19,7 @@ The intent of this documentation is to capture the complete finite element analy
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_2.jpg" alt="Material Library Setup" width="450">
+    <img src="/docs/assignments/A07/Screenshot_2.jpg" alt="Material Library Setup" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Material library directory and property verification
     </figcaption>
@@ -28,13 +28,13 @@ The intent of this documentation is to capture the complete finite element analy
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_3.jpg" alt="Root Fillet Creation" width="450">
+    <img src="/docs/assignments/A07/Screenshot_3.jpg" alt="Root Fillet Creation" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Applying $0.125\text{ in}$ root fillet to mitigate stress concentration
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="design1_mass_properties_report.jpg" alt="Design I Mass Properties Report" width="450">
+    <img src="/docs/assignments/A07/design1_mass_properties_report.jpg" alt="Design I Mass Properties Report" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Design I baseline mass and volume properties report
     </figcaption>
@@ -55,13 +55,13 @@ To establish a consistent numerical baseline across all outer loop iterations, i
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_4.jpg" alt="Fixed Constraints on T-Slot Surfaces" width="450">
+    <img src="/docs/assignments/A07/Screenshot_4.jpg" alt="Fixed Constraints on T-Slot Surfaces" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Fixed boundary constraints applied to internal T-slots
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_5.jpg" alt="600 lbf Cantilever Load Application" width="450">
+    <img src="/docs/assignments/A07/Screenshot_5.jpg" alt="600 lbf Cantilever Load Application" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       $600\text{ lbf}$ static downward force on loading pin
     </figcaption>
@@ -70,13 +70,13 @@ To establish a consistent numerical baseline across all outer loop iterations, i
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_6.jpg" alt="Design I Default AutoGEM Mesh" width="450">
+    <img src="/docs/assignments/A07/Screenshot_6.jpg" alt="Design I Default AutoGEM Mesh" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Design I initial AutoGEM mesh summary (627 elements)
     </figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
-    <img src="Screenshot_7.jpg" alt="Design I Analysis Design Study Execution" width="450">
+    <img src="/docs/assignments/A07/Screenshot_7.jpg" alt="Design I Analysis Design Study Execution" width="450">
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 5px;">
       Executing static analysis design study for Design I
     </figcaption>
