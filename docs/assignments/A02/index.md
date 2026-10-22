@@ -3,7 +3,7 @@
 ## Documentation Quality & Introduction
 Comprehensive technical documentation establishes a transparent engineering baseline, enabling external reviewers to rigorously evaluate the underlying methodology, safety margins, and structural design decisions with confidence.
 
-![Truss System Overview](./System_Overview.png){ width="385" }
+![Truss System Overview](/megr2156-portfolio/assignments/A02/System_Overview.png){ width="385" }
 
 *Truss Configuration and System Overview Diagram*
 
@@ -18,7 +18,7 @@ Free body diagrams were sketched and labeled for each individual joint on the tr
 ### Symbolic & Numerical Force Solutions
 Internal forces were solved symbolically across the joint equilibrium equations (e.g., ΣFy = FBC·sin(θ1) + FCA·sin(θ2) + ...).
 
-![Joint FBD Sketches](./Screenshot_33.jpg){ width="385" }
+![Joint FBD Sketches](/megr2156-portfolio/assignments/A02/Screenshot_33.jpg){ width="385" }
 
 *Free Body Diagrams and Equilibrium Framework for Node C*
 
@@ -38,22 +38,22 @@ To determine the safety boundaries, hand calculations were performed to track kn
 * **Symbolic & Numerical Area:** The allowable shear stress boundary was formulated as τall = (0.5 × Sy) / SF, yielding the symbolic area equation: Apin = V / (τall × n).
 * **Approximate Weight:** Assuming four pins with an individual length of 50 mm, the total pin volume equates to 3.95 in³. Multiplying by the material density (0.278 lb/in³) results in a combined pin weight of approximately 1.10 lb.
 
-![Critical Pin Free Body Diagram and Shear Planes](./Screenshot_34.jpg){ width="385" }
+![Critical Pin Free Body Diagram and Shear Planes](/megr2156-portfolio/assignments/A02/Screenshot_34.jpg){ width="385" }
 
 *Critical Pin Free Body Diagram and Shear Planes*
 
 ## CAD Modeling & Mass Properties Verification
 A 3D parametric model of the truss structure was generated using CAD software. The framework was constructed to track the exact mathematical values calculated during the sizing phase.
 
-![CAD Step 1](./Screenshot_35.jpg){ width="200" }
-![CAD Step 2](./Screenshot_36.jpg){ width="200" }
-![CAD Step 3](./Screenshot_27.jpg){ width="200" }
-![CAD Step 4](./Screenshot_26.jpg){ width="200" }
+![CAD Step 1](/megr2156-portfolio/assignments/A02/Screenshot_35.jpg){ width="200" }
+![CAD Step 2](/megr2156-portfolio/assignments/A02/Screenshot_36.jpg){ width="200" }
+![CAD Step 3](/megr2156-portfolio/assignments/A02/Screenshot_27.jpg){ width="200" }
+![CAD Step 4](/megr2156-portfolio/assignments/A02/Screenshot_26.jpg){ width="200" }
 
-![CAD Step 5](./Screenshot_30.jpg){ width="200" }
-![CAD Step 6](./Screenshot_31.jpg){ width="200" }
-![CAD Step 7](./Screenshot_28.jpg){ width="200" }
-![CAD Step 8](./Screenshot_29.jpg){ width="200" }
+![CAD Step 5](/megr2156-portfolio/assignments/A02/Screenshot_30.jpg){ width="200" }
+![CAD Step 6](/megr2156-portfolio/assignments/A02/Screenshot_31.jpg){ width="200" }
+![CAD Step 7](/megr2156-portfolio/assignments/A02/Screenshot_28.jpg){ width="200" }
+![CAD Step 8](/megr2156-portfolio/assignments/A02/Screenshot_29.jpg){ width="200" }
 
 *Process from design to assembly*
 
@@ -67,8 +67,8 @@ The design process demonstrated how critical maximum internal force iterations d
 
 <div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
 
-<a href="./MEGR%202156.pdf" download="MEGR 2156.pdf" style="background-color: #d32f2f; color: white; text-decoration: none; padding: 12px 22px; font-size: 0.95em; font-weight: bold; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.15); display: inline-block; transition: background-color 0.2s;">📕 Download Truss Work PDF</a>
+<a href="/megr2156-portfolio/assignments/A02/MEGR%202156.pdf" download="MEGR 2156.pdf" style="background-color: #d32f2f; color: white; text-decoration: none; padding: 12px 22px; font-size: 0.95em; font-weight: bold; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.15); display: inline-block; transition: background-color 0.2s;">📕 Download Truss Work PDF</a>
 
-<a href="./A2.zip" download="A2.zip" style="background-color: #f57c00; color: white; text-decoration: none; padding: 12px 22px; font-size: 0.95em; font-weight: bold; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.15); display: inline-block; transition: background-color 0.2s;">📦 Download CAD File .zip</a>
+<a href="/megr2156-portfolio/assignments/A02/A2.zip" download="A2.zip" style="background-color: #f57c00; color: white; text-decoration: none; padding: 12px 22px; font-size: 0.95em; font-weight: bold; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.15); display: inline-block; transition: background-color 0.2s;">📦 Download CAD File .zip</a>
 
 </div>
