@@ -4,7 +4,7 @@
 
 ## 1. Documentation & Intent
 
-The goal for this assignment was to design, model, and assemble a 24:9 spur gearbox from scratch while working through all the geometric clashes, bearing stack-ups, and tolerance issues that pop up along the way. I wanted this portfolio to walk through the actual design iteration process—especially how I fixed the pocket sizing errors and handled the software headaches at the end.
+The goal for this assignment was to design, model, and assemble a 24:9 spur gearbox from scratch while working through all the geometric clashes, bearing stack-ups, and tolerance issues that pop up along the way. I wanted this portfolio to walk through the actual design iteration process, especially how I fixed the pocket sizing errors and handled the software headaches at the end.
 
 ### Design Thought Process & Insights
 - **The Pocket Sizing Fix:** When I first cut the internal housing cavity, I made the mistake of sizing the pockets using the pitch diameters. That caused the gear teeth tips ($OD$) to smash right into the housing walls. I had to go back and recalculate the pockets using the actual Outside Diameters ($OD_1 = 0.34375\text{ in}$, $OD_2 = 0.81250\text{ in}$) plus a $0.050\text{ in}$ radial clearance ($0.100\text{ in}$ total diametral clearance), which finally gave the gears room to breathe.
@@ -122,7 +122,7 @@ Here is the quick reference breakdown for all the hardware and housing parts use
 
 ## 4. Technical Troubleshooting & SolidWorks Assembly Validation
 
-Putting the assembly together started off straightforward—anchoring the lower housing, dropping in the bearings, and lining up the shafts. But by the end of the final assembly sequence, things got really frustrating. Right as I was finishing up the last few concentric constraints and trying to lock down the gear mesh relationships, SolidWorks kept crashing, freezing up, and throwing fatal memory access errors because of the complex surface geometry on the imported bearing models.
+Putting the assembly together started off straightforward by anchoring the lower housing, dropping in the bearings, and lining up the shafts. But by the end of the final assembly sequence, things got really frustrating. Right as I was finishing up the last few concentric constraints and trying to lock down the gear mesh relationships, SolidWorks kept crashing, freezing up, and throwing fatal memory access errors because of the complex surface geometry on the imported bearing models.
 
 ### Assembly Steps & Crash Walkthrough
 - **Starting Out:** I anchored the lower housing (`lower_housing<1>`) at the origin to keep everything grounded.
