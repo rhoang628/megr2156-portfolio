@@ -186,7 +186,7 @@ References and tools used throughout this project:
 
 <ul style="list-style-type: circle !important; padding-left: 20px;">
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
-    Dassault Systèmes SolidWorks Academic Edition
+    SolidWorks Academic Edition
   </li>
   <li style="list-style-type: circle !important; margin-bottom: 4px;">
     McMaster-Carr Online CAD Library
