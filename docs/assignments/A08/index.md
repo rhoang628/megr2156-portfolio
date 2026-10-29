@@ -4,12 +4,12 @@
 
 ## 1. Documentation & Intent
 
-The goal for this assignment was to design, model, and assemble a 24:9 spur gearbox from scratch while working through all the geometric clashes, bearing stack-ups, and tolerance issues that pop up along the way. I wanted this portfolio to walk through the actual design iteration process, especially how I fixed the pocket sizing errors and handled the software headaches at the end.
+The goal for this assignment was to design, model, and assemble a 24:9 spur gearbox from scratch while working through all the geometric clashes, bearing stack-ups, and tolerance issues that pop up al[...]
 
 ### Design Thought Process & Insights
-- **The Pocket Sizing Fix:** When I first cut the internal housing cavity, I made the mistake of sizing the pockets using the pitch diameters. That caused the gear teeth tips ($OD$) to smash right into the housing walls. I had to go back and recalculate the pockets using the actual Outside Diameters ($OD_1 = 0.34375\text{ in}$, $OD_2 = 0.81250\text{ in}$) plus a $0.050\text{ in}$ radial clearance ($0.100\text{ in}$ total diametral clearance), which finally gave the gears room to breathe.
-- **Figuring Out the Bearings:** Getting the bronze sleeve bearings right took some careful planning. The shorter input bearings (`6391K326`, $0.156\text{ in}$ long) sit completely hidden and flush inside the $0.250\text{ in}$ housing wall counterbores. But the output bearings (`6391K132`, $0.500\text{ in}$ long) are twice as thick as the wall, so they naturally poke out $0.125\text{ in}$ on the inside to support the gear and $0.125\text{ in}$ on the outside for extra torque stability.
-- **Enclosure Fasteners:** To clamp the housing halves together securely, I set up the top block with #4 clearance holes ($\varnothing 0.128\text{ in}$) and counterbores so the screw heads sit flush, and tapped the bottom block with #4-40 blind threads ($0.375\text{ in}$ depth).
+- **The Pocket Sizing Fix:** When I first cut the internal housing cavity, I made the mistake of sizing the pockets using the pitch diameters. That caused the gear teeth tips ($OD$) to smash right int[...]
+- **Figuring Out the Bearings:** Getting the bronze sleeve bearings right took some careful planning. The shorter input bearings (`6391K326`, $0.156\text{ in}$ long) sit completely hidden and flush in[...]
+- **Enclosure Fasteners:** To clamp the housing halves together securely, I set up the top block with #4 clearance holes ($\varnothing 0.128\text{ in}$) and counterbores so the screw heads sit flush, [...]
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -70,8 +70,8 @@ To keep everything parametric and linked together, I set up global variables in 
 4. **Center-to-Center Distance ($C$):**
    $$C = \frac{D_{\text{pinion}} + D_{\text{gear}}}{2} = \frac{0.28125 + 0.75000}{2} = \mathbf{0.515625}\text{ in}$$
 5. **Outside Diameters ($OD$) & Pocket Sizing ($c = 0.050\text{ in}$):**
-   $$OD_{\text{pinion}} = \frac{9 + 2}{32} = 0.34375\text{ in} \longrightarrow \text{Cavity Dia}_{1} = 0.34375 + 2(0.050) = \mathbf{0.44375}\text{ in}$$
-   $$OD_{\text{gear}} = \frac{24 + 2}{32} = 0.81250\text{ in} \longrightarrow \text{Cavity Dia}_{2} = 0.81250 + 2(0.050) = \mathbf{0.91250}\text{ in}$$
+   $$OD_{\text{pinion}} = \frac{N_1 + 2}{P_d} = \frac{9 + 2}{32} = 0.34375\text{ in} \;\Rightarrow\; \text{Pocket Dia}_{1} = OD_{\text{pinion}} + 2c = 0.34375 + 2(0.050) = \mathbf{0.44375}\text{ in}$$
+   $$OD_{\text{gear}} = \frac{N_2 + 2}{P_d} = \frac{24 + 2}{32} = 0.81250\text{ in} \;\Rightarrow\; \text{Pocket Dia}_{2} = OD_{\text{gear}} + 2c = 0.81250 + 2(0.050) = \mathbf{0.91250}\text{ in}$$
    
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -111,23 +111,23 @@ Here is the quick reference breakdown for all the hardware and housing parts use
 
 | Component / Subsystem | Part Number / Type | Critical Dimensions | Housing Interface | Placement / Alignment Strategy |
 | :--- | :--- | :--- | :--- | :--- |
-| **Upper Housing** | Custom Machined / Molded | $1.850\text{ in} \times 1.350\text{ in} \times 0.625\text{ in}$ | Top Split Enclosure | #4 Clearance holes ($\varnothing 0.128\text{ in}$) with $\varnothing 0.220\text{ in}$ C'bores. |
-| **Lower Housing** | Custom Machined / Molded | $1.850\text{ in} \times 1.350\text{ in} \times 0.625\text{ in}$ | Bottom Split Base | #4-40 Blind Tapped holes ($0.375\text{ in}$ thread, $0.450\text{ in}$ drill depth). |
-| **Input Shaft & Pinion** | Steel / McMaster | $\varnothing 0.125\text{ in} \times 1.000\text{ in}$ ($9\text{T}$, $32P_d$) | `6391K326` Bearings | Concentric to input bore, centered inside $0.750\text{ in}$ total internal cavity. |
-| **Output Shaft & Gear** | Steel / McMaster | $\varnothing 0.250\text{ in} \times 1.000\text{ in}$ ($24\text{T}$, $32P_d$) | `6391K132` Bearings | Concentric to output bore, centered at $0.515625\text{ in}$ pitch center distance. |
-| **Short Input Bearings** | McMaster `#6391K326` | $0.125\text{ in ID} \times 0.1875\text{ in OD} \times 0.156\text{ in L}$ | Blind Counterbore | Seated flush inside $0.156\text{ in}$ deep housing floor/roof pockets. |
-| **Long Output Bearings** | McMaster `#6391K132` | $0.250\text{ in ID} \times 0.3750\text{ in OD} \times 0.500\text{ in L}$ | Through-Bore | Centered with $0.125\text{ in}$ distance mate to exterior face ($0.125\text{ in}$ cavity overhang). |
+| **Upper Housing** | Custom Machined / Molded | $1.850\text{ in} \times 1.350\text{ in} \times 0.625\text{ in}$ | Top Split Enclosure | #4 Clearance holes ($\varnothing 0.128\text{ in}$) with $\varno[...]
+| **Lower Housing** | Custom Machined / Molded | $1.850\text{ in} \times 1.350\text{ in} \times 0.625\text{ in}$ | Bottom Split Base | #4-40 Blind Tapped holes ($0.375\text{ in}$ thread, $0.450\text{ [...]
+| **Input Shaft & Pinion** | Steel / McMaster | $\varnothing 0.125\text{ in} \times 1.000\text{ in}$ ($9\text{T}$, $32P_d$) | `6391K326` Bearings | Concentric to input bore, centered inside $0.750\tex[...]
+| **Output Shaft & Gear** | Steel / McMaster | $\varnothing 0.250\text{ in} \times 1.000\text{ in}$ ($24\text{T}$, $32P_d$) | `6391K132` Bearings | Concentric to output bore, centered at $0.515625\tex[...]
+| **Short Input Bearings** | McMaster `#6391K326` | $0.125\text{ in ID} \times 0.1875\text{ in OD} \times 0.156\text{ in L}$ | Blind Counterbore | Seated flush inside $0.156\text{ in}$ deep housing fl[...]
+| **Long Output Bearings** | McMaster `#6391K132` | $0.250\text{ in ID} \times 0.3750\text{ in OD} \times 0.500\text{ in L}$ | Through-Bore | Centered with $0.125\text{ in}$ distance mate to exterior [...]
 
 ---
 
 ## 4. Technical Troubleshooting & SolidWorks Assembly Validation
 
-Putting the assembly together started off straightforward by anchoring the lower housing, dropping in the bearings, and lining up the shafts. But by the end of the final assembly sequence, things got really frustrating. Right as I was finishing up the last few concentric constraints and trying to lock down the gear mesh relationships, SolidWorks kept crashing, freezing up, and throwing fatal memory access errors because of the complex surface geometry on the imported bearing models.
+Putting the assembly together started off straightforward by anchoring the lower housing, dropping in the bearings, and lining up the shafts. But by the end of the final assembly sequence, things got [...]
 
 ### Assembly Steps & Crash Walkthrough
 - **Starting Out:** I anchored the lower housing (`lower_housing<1>`) at the origin to keep everything grounded.
 - **Adding the Bearings:** I mated the bearing outer diameters concentrically to the housing holes, and used a $0.125\text{ in}$ distance mate to get the long output bearings centered nicely.
-- **Where It Fell Apart:** By the very end of the assembly process, trying to rebuild with all the parts fully mated caused SolidWorks to crash repeatedly. The solver got stuck in cyclic loops trying to process the McMaster bearing details alongside the gear teeth.
+- **Where It Fell Apart:** By the very end of the assembly process, trying to rebuild with all the parts fully mated caused SolidWorks to crash repeatedly. The solver got stuck in cyclic loops trying [...]
 
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
@@ -149,9 +149,9 @@ Putting the assembly together started off straightforward by anchoring the lower
 ## 5. Engineering Reflection & Lessons Learned
 
 ### What I Learned
-- **Watch Out for Pocket Clearances:** Sizing cavities using pitch diameters is a classic trap. Always use the Outside Diameters ($OD = \frac{N+2}{P_d}$) plus your clearance buffer so your gear teeth don't crash into the walls.
+- **Watch Out for Pocket Clearances:** Sizing cavities using pitch diameters is a classic trap. Always use the Outside Diameters ($OD = \frac{N+2}{P_d}$) plus your clearance buffer so your gear teeth [...]
 - **Handle Long Bearings Carefully:** When a bushing is longer than your housing wall, don't rely on random face coincidences. Use explicit distance mates so it pokes out evenly on both sides.
-- **Expect CAD Software Crashes:** Complex supplier STEP files can completely break your mate solver by the end of an assembly. Simplifying models or locking down references earlier can save you from losing work when SolidWorks crashes.
+- **Expect CAD Software Crashes:** Complex supplier STEP files can completely break your mate solver by the end of an assembly. Simplifying models or locking down references earlier can save you [...]
 
 ### Time Spent Working on This Project
 - **Mathematical Modeling & Pocket Calculations:** 2.0 hours
