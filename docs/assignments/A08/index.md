@@ -157,9 +157,9 @@ Putting the assembly together started off straightforward by anchoring the lower
 - **Mathematical Modeling & Pocket Calculations:** 2.0 hours
 - **CAD Part Modeling & Feature Updates:** 3.0 hours
 - **Assembly Mating & Bearing Stack-Up:** 2.5 hours
-- **Troubleshooting Crashes & Fixing Errors:** 2.0 hours
+- **Troubleshooting Crashes & Fixing Errors:** 5.0 hours
 - **Formatting the Portfolio & Organizing Screenshots:** 1.5 hours
-- **Total Time Invested:** **11.0 hours**
+- **Total Time Invested:** **14.0 hours**
 
 <div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
 
