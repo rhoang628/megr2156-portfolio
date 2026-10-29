@@ -70,8 +70,8 @@ To keep everything parametric and linked together, I set up global variables in 
 4. **Center-to-Center Distance ($C$):**
    $$C = \frac{D_{\text{pinion}} + D_{\text{gear}}}{2} = \frac{0.28125 + 0.75000}{2} = \mathbf{0.515625}\text{ in}$$
 5. **Outside Diameters ($OD$) & Pocket Sizing ($c = 0.050\text{ in}$):**
-   $$OD_{\text{pinion}} = \frac{9 + 2}{32} = 0.34375\text{ in} \longrightarrow \text{Cavity Dia}_1 = 0.34375 + 2(0.050) = \mathbf{0.44375}\text{ in}$$
-   $$OD_{\text{gear}} = \frac{24 + 2}{32} = 0.81250\text{ in} \longrightarrow \text{Cavity Dia}_2 = 0.81250 + 2(0.050) = \mathbf{0.91250}\text{ in}$$
+   $$OD_{\text{pinion}} = \frac{9 + 2}{32} = 0.34375\text{ in} \longrightarrow \text{Cavity Dia}_{1} = 0.34375 + 2(0.050) = \mathbf{0.44375}\text{ in}$$
+   $$OD_{\text{gear}} = \frac{24 + 2}{32} = 0.81250\text{ in} \longrightarrow \text{Cavity Dia}_{2} = 0.81250 + 2(0.050) = \mathbf{0.91250}\text{ in}$$
    
 <div align="center">
   <figure style="display: inline-block; margin: 10px; vertical-align: top;">
