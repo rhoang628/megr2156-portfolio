@@ -1,4 +1,4 @@
-# A8: Gearbox Design & CAD Assembly
+# A8: Gearbox Design
 
 <small>***(Clicking on the images will enlarge them)***</small>
 
