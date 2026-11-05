@@ -6,6 +6,19 @@
 
 The goal for this assignment was to design, model, and assemble a 1:1 pulley drive system from scratch, working through belt tension calculations, component sizing, bearing stack-ups, and direct SolidWorks modeling workflows. 
 
+<div align="center" style="margin: 20px 0;">
+  <figure style="display: inline-block; width: 100%; max-width: 900px; margin: 0 auto;">
+    <iframe src="A9_Hand_Calculations.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 4px;">
+      <p>Your browser does not support iframes. 
+         <a href="A9_Hand_Calculations.pdf">Download the Hand Calculations PDF instead.</a>
+      </p>
+    </iframe>
+    <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px;">
+      Complete Hand Calculations & Free Body Diagrams
+    </figcaption>
+  </figure>
+</div>
+
 ### Design Thought Process & Insights
 - **The Pulley Revolve Strategy:** Rather than sketching a solid block and cutting a hole, the pulley was modeled via a direct 2D sketch positioned above the centerline with an open inner bore gap, allowing a single $360^\circ$ revolve feature to simultaneously generate the solid body, shaft bore, and custom U-groove.
 - **Journal Bearing Integration:** Using a single aluminum support frame plate ($0.500\text{ in}$ thick) meant housing two oil-impregnated sintered bronze journal bearings ($\varnothing 0.375\text{ in OD} \times 0.500\text{ in L}$) that sit completely flush on both the front and back faces without protruding awkwardly.
