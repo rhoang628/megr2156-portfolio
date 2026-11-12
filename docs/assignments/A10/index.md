@@ -102,6 +102,14 @@ Given the constraints on the crosshead, I had to find the stress and deflection 
 
 ---
 
+## Lessons Learned & Project Takeaways
+
+- **Team Coordination:** Working as a group really highlighted how important it is to communicate early and lock down key interfaces—like keeping our center-to-center span and hole clearances aligned between the drivetrain calculations and the crosshead CAD.
+- **Checking Multiple Constraints:** Comparing our stress and deflection limits showed us why it's critical to evaluate different failure modes instead of just relying on the first number you calculate, since the stricter requirement ended up driving our final thickness.
+- **Hardware Selection:** We learned quickly that generic off-the-shelf parts don't always cut it for load-bearing applications, so taking the extra time to track down rated components gave us much more confidence in the actual safety factors of our design.
+
+  ---
+  
 <div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
   <a href="A10.zip" download="A10.zip" style="
     background-color: #1976d2; 
