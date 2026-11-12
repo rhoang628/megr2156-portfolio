@@ -1,4 +1,4 @@
-## Leadscrew Sizing, Speed, Torque & Flange Nut Selection
+## Leadscrew Sizing, Speed, Torque & Flange Nut Selection (Randy Hoang)
 
 For my part of the project, I focused on sizing the leadscrew drivetrain for our $2\text{ kN}$ testing frame. I worked through the minimum root diameter required to handle the axial load safely, found the motor rotational speed range needed to hit our $1\text{--}50\text{ mm/min}$ crosshead travel speeds, calculated the peak input torque per screw, and picked out a matching bronze flange nut ([`97790A110`](https://www.mcmaster.com/97790A110/)) from McMaster-Carr so the rest of the team has the exact mounting dimensions for the crosshead and CAD assembly.
 
