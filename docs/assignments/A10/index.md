@@ -1,4 +1,4 @@
-# Group Portfolio: Mechanical Subsystem & Bill of Materials
+# Group Portfolio: Lead Screw Design
 
 ## Leadscrew Sizing, Speed, Torque & Flange Nut Selection (Randy Hoang)
 
