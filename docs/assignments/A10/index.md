@@ -100,6 +100,24 @@ Given the constraints on the crosshead, I had to find the stress and deflection 
 | 4 | 8 | T-Slotted Framing Bracket | $7.06 | $56.48 | [Link](https://www.mcmaster.com/5537T937/) |
 | **Total** | | | | **$628.76** | |
 
+---
+
+<div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
+  <a href="A10.zip" download="A10.zip" style="
+    background-color: #1976d2; 
+    color: white; 
+    text-decoration: none;
+    padding: 12px 22px; 
+    font-size: 0.95em; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    display: inline-block;
+    transition: background-color 0.2s;">
+    📦 Download All Project Files &amp; Calculations (.zip)
+  </a>
+</div>
+
 <script>
   MathJax = {
     tex: {
