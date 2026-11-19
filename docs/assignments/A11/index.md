@@ -142,6 +142,13 @@ For the CAD and frame design portion of the project, I built and integrated the 
 
 ---
 
+### Lessons Learned & Project Takeaways
+
+- **Hardware & Interface Verification:** Checking exact dimensions, shaft profiles, bore sizes, and load ratings upfront saved rework—confirming the NEMA 23 motor (`6627T161`), clamp-on flexible beam coupling (`6208K595`), and `1/2"-10` Acme leadscrews/flange nuts early kept our CAD mates, axial clearances, and safety factors aligned across the team.
+- **Designing Beyond Minimum Stress Limits:** Hand calculations for bearing stress and torsional shear establish safe minimums, but practical factors like bracket rigidity, fastener thread engagement, and torque margin drive real-world choices (such as selecting a `6.00 mm` 6061-T6 mount plate over the `2.90 mm` bearing minimum and a `1 1/4"` OD coupling over the `14.2 mm` minimum OD).
+- **CAD & Simulation Workflow:** Iterating on frame parts, trimming leadscrew length to fit the assembly, and troubleshooting meshing memory limits highlighted how sensitive full-assembly FEA and mating constraints can be—making clean sub-assemblies and early dimension checks essential.
+- **Cost & Scope Tracking:** Keeping a clear BOM alongside labor hours made it easy to track total hardware and engineering costs as parts were selected, updated, and integrated into the final assembly.
+
 <div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
   <a href="A11.zip" download="A11.zip" style="
     background-color: #1976d2; 
