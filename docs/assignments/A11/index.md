@@ -25,9 +25,9 @@ For my part of the project, I focused on selecting the stepper motor, sizing the
 
 <div align="center" style="margin: 20px 0;">
   <figure style="display: inline-block; width: 100%; max-width: 900px; margin: 0 auto;">
-    <iframe src="Stepper Motor, with Square Body, NEMA 23, 600.4 in.-oz. Maximum Holding Torque _ McMaster-Carr_2.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 4px;">
+    <iframe src="6627T161.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 4px;">
       <p>Your browser does not support iframes. 
-         <a href="Stepper Motor, with Square Body, NEMA 23, 600.4 in.-oz. Maximum Holding Torque _ McMaster-Carr_2.pdf">Download the McMaster-Carr Stepper Motor Spec Sheet PDF instead.</a>
+         <a href="6627T161.pdf">Download the McMaster-Carr Stepper Motor Spec Sheet PDF instead.</a>
       </p>
     </iframe>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px;">
@@ -38,9 +38,9 @@ For my part of the project, I focused on selecting the stepper motor, sizing the
 
 <div align="center" style="margin: 20px 0;">
   <figure style="display: inline-block; width: 100%; max-width: 900px; margin: 0 auto;">
-    <iframe src="Clamping Precision Flexible Shaft Coupling, Spiral, Aluminum, for 1_2_ x 1_4_ Shaft Diameter, 2_ Long, 1-1_4_ OD _ McMaster-Carr_2.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 4px;">
+    <iframe src="6208K595.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 4px;">
       <p>Your browser does not support iframes. 
-         <a href="Clamping Precision Flexible Shaft Coupling, Spiral, Aluminum, for 1_2_ x 1_4_ Shaft Diameter, 2_ Long, 1-1_4_ OD _ McMaster-Carr_2.pdf">Download the McMaster-Carr Shaft Coupling Spec Sheet PDF instead.</a>
+         <a href="6208K595.pdf">Download the McMaster-Carr Shaft Coupling Spec Sheet PDF instead.</a>
       </p>
     </iframe>
     <figcaption style="font-size: 0.85em; color: gray; margin-top: 8px;">
