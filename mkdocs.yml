@@ -23,7 +23,7 @@ nav:
       - "A8: Gear Box Design": assignments/A08/index.md
       - "A9: Pulley System Design": assignments/A09/index.md
       - "A10: Lead Screw Design": assignments/A10/index.md
-      - "A11: Motor Selection Design": assignments/a11/index.md
+      - "A11: Motor Selection Design": docs/assignments/a11/index.md
 
 plugins:
   - search
