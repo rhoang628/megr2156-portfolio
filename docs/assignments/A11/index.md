@@ -110,7 +110,7 @@ For the CAD and frame design portion of the project, I built and integrated the 
   ![bearing mount](bearingmount.png)
 
 - **Frame Mounting Bracket:** This is another downloaded item from McMaster that was used to connect the different parts of the frame of the tensile tester together.  
-  ![frame mounting bracket](mountingbracket.png)
+  ![frame mounting bracket](framebracket.png)
 
 - **Final Assembly:** This is the final completed assembly of the tensile tester, as shown, all the previously described parts are on this machine and there were many other iterations that failed because of improper measurements of downloaded models or incorrect constraints when mating.  
   ![tensile tester](tensiletester.png)
