@@ -91,14 +91,29 @@ For my portion of the project, I was responsible for selecting the stepper motor
 For the CAD and frame design portion of the project, I built and integrated the tensile tester assembly ([`Tensile Tester`](A11assm.SLDASM)) using the calculated dimensions and downloaded hardware models.
 
 ### CAD Assembly & Component Notes
-- **Simulation & Meshing Issue ([`Mesh error`](Mesh.png)):** When creating the mesh, everything was checked out correctly just as how it was done in previous uses. However this time, the simulation would get stuck at 96% and then get to 99% at the last second before stating my memory usage was too high and failing to generate a model. After trying multiple fixes the outcome stayed the same.
-- **Crosshead ([`crosshead`](crosshead.png)):** This was designed using the dimensions achieved during last week’s assignment.
-- **Motor Mount ([`mount`](mount.png)):** Using the diameter and thickness that was needed in the previous work done for this assignment, this was the result for the motor mount at the top of the frame.
-- **Lead Screw ([`lead screw`](leadscrew.png)):** This was the downloaded file for the lead screw that we chose. To fit our frame I cut the length down from 2 feet to 18 inches.
-- **Frame ([`frame`](frame.png)):** This is the framework that was used to make the structure of the tensile tester. The frame piece used here was modified multiple times to fit the varied sections of the tensile tester.
-- **Bearing Mount ([`bearing mount`](bearingmount.png)):** This is the mount that was used to connect the lead screw and the crosshead. This model was also downloaded from McMaster and selected due to its proper threading and desirable dimensions for our purposes.
-- **Frame Mounting Bracket ([`frame mounting bracket`](mountingbracket)):** This is another downloaded item from McMaster that was used to connect the different parts of the frame of the tensile tester together.
-- **Final Assembly ([`tensile tester`](tensiletester.png)):** This is the final completed assembly of the tensile tester, as shown, all the previously described parts are on this machine and there were many other iterations that failed because of improper measurements of downloaded models or incorrect constraints when mating.
+- **Simulation & Meshing Issue:** When creating the mesh, everything was checked out correctly just as how it was done in previous uses. However this time, the simulation would get stuck at 96% and then get to 99% at the last second before stating my memory usage was too high and failing to generate a model. After trying multiple fixes the outcome stayed the same.  
+  ![Mesh error](Mesh.png)
+
+- **Crosshead:** This was designed using the dimensions achieved during last week’s assignment.  
+  ![crosshead](crosshead.png)
+
+- **Motor Mount:** Using the diameter and thickness that was needed in the previous work done for this assignment, this was the result for the motor mount at the top of the frame.  
+  ![mount](mount.png)
+
+- **Lead Screw:** This was the downloaded file for the lead screw that we chose. To fit our frame I cut the length down from 2 feet to 18 inches.  
+  ![lead screw](leadscrew.png)
+
+- **Frame:** This is the framework that was used to make the structure of the tensile tester. The frame piece used here was modified multiple times to fit the varied sections of the tensile tester.  
+  ![frame](frame.png)
+
+- **Bearing Mount:** This is the mount that was used to connect the lead screw and the crosshead. This model was also downloaded from McMaster and selected due to its proper threading and desirable dimensions for our purposes.  
+  ![bearing mount](bearingmount.png)
+
+- **Frame Mounting Bracket:** This is another downloaded item from McMaster that was used to connect the different parts of the frame of the tensile tester together.  
+  ![frame mounting bracket](mountingbracket.png)
+
+- **Final Assembly:** This is the final completed assembly of the tensile tester, as shown, all the previously described parts are on this machine and there were many other iterations that failed because of improper measurements of downloaded models or incorrect constraints when mating.  
+  ![tensile tester](tensiletester.png)
 
 ---
 
