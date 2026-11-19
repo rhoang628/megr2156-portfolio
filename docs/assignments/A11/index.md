@@ -84,6 +84,65 @@ For my portion of the project, I was responsible for selecting the stepper motor
 | **Motor Mount Bracket** | 6061-T6 Aluminum Plate | $6.00\text{ mm}$ thickness (exceeds $2.90\text{ mm}$ bearing minimum), NEMA 23 ($1.86^{\prime\prime}$) mounting pattern | $\sigma_y = 276\text{ MPa}$, $\sigma_{\text{allow}} = 69\text{ MPa}$ ($n_s = 4$) | Sized for structural stiffness and fastener thread engagement |
 | **Shaft Coupling** | McMaster [**6208K595**](https://www.mcmaster.com/6208K595/) (Aluminum Spiral Beam, Clamp-On) | $1\ 1/4^{\prime\prime}$ ($31.75\text{ mm}$) OD $\times 2^{\prime\prime}$ overall length, $1/2^{\prime\prime} \times 1/4^{\prime\prime}$ bores, \#8-32 $\times 1/2^{\prime\prime}$ clamp screws | $115\text{ in}\cdot\text{lbf}$ max torque, $10,000\text{ rpm}$ max, $0.015^{\prime\prime}$ parallel / $5^\circ$ angular / $0.01^{\prime\prime}$ axial | Zero backlash; clamps $1/4^{\prime\prime}$ motor shaft to $1/2^{\prime\prime}$ leadscrew |
 
+---
+
+## Analyze and Design a Frame (Noah Nicholson)
+
+For the CAD and frame design portion of the project, I built and integrated the tensile tester assembly ([`Tensile Tester`](A11assm.SLDASM)) using the calculated dimensions and downloaded hardware models.
+
+### CAD Assembly & Component Notes
+- **Simulation & Meshing Issue ([`Mesh error`](Mesh.png)):** When creating the mesh, everything was checked out correctly just as how it was done in previous uses. However this time, the simulation would get stuck at 96% and then get to 99% at the last second before stating my memory usage was too high and failing to generate a model. After trying multiple fixes the outcome stayed the same.
+- **Crosshead ([`crosshead`](crosshead.png)):** This was designed using the dimensions achieved during last week’s assignment.
+- **Motor Mount ([`mount`](mount.png)):** Using the diameter and thickness that was needed in the previous work done for this assignment, this was the result for the motor mount at the top of the frame.
+- **Lead Screw ([`lead screw`](leadscrew.png)):** This was the downloaded file for the lead screw that we chose. To fit our frame I cut the length down from 2 feet to 18 inches.
+- **Frame ([`frame`](frame.png)):** This is the framework that was used to make the structure of the tensile tester. The frame piece used here was modified multiple times to fit the varied sections of the tensile tester.
+- **Bearing Mount ([`bearing mount`](bearingmount.png)):** This is the mount that was used to connect the lead screw and the crosshead. This model was also downloaded from McMaster and selected due to its proper threading and desirable dimensions for our purposes.
+- **Frame Mounting Bracket ([`frame mounting bracket`](mountingbracket)):** This is another downloaded item from McMaster that was used to connect the different parts of the frame of the tensile tester together.
+- **Final Assembly ([`tensile tester`](tensiletester.png)):** This is the final completed assembly of the tensile tester, as shown, all the previously described parts are on this machine and there were many other iterations that failed because of improper measurements of downloaded models or incorrect constraints when mating.
+
+---
+
+## Bill of Materials & Design Cost (Atiba Johnson)
+
+### Bill of Materials
+
+| Item # | Qty | Name | Cost / Item | Total Cost | Purchase Link |
+| :---: | :---: | :--- | :---: | :---: | :--- |
+| 1 | 1 | Stepper Motor with Square Body, NEMA 23, 600.4 | $240.27 | $240.27 | [Link](https://www.mcmaster.com/6627T161/) |
+| 2 | 1 | Clamping Precision Flexible Shaft Coupling, Spiral, Aluminum, for 1/2" x 1/4" Shaft Diameter, 2" Long, 1-1/4" OD | $133.16 | $133.16 | [Link](https://www.mcmaster.com/6208K595/) |
+| 3 | 2 | Precision Acme Lead Screw, 1060/Alloy Steel, 1/2"-10 Thread, 2 ft. Long | $65.24 | $130.48 | [Link](https://www.mcmaster.com/6350K61/) |
+| 4 | 2 | Precision Acme Flange Nut, 932 Bearing Bronze, 1/2"-10 Thread | $178.60 | $357.20 | [Link](https://www.mcmaster.com/97790A110/) |
+| 5 | 4 | T-Slotted Framing Single Rail, 40 mm x 40 mm, 2 ft. Long | $21.15 | $84.60 | [Link](https://www.mcmaster.com/6575N25/) |
+| 6 | 8 | T-Slotted Framing Bracket | $7.06 | $56.48 | [Link](https://www.mcmaster.com/5537T937/) |
+| 7 | 1 | Alloy Steel Acme Lead Screw Right Hand, 1/2"-10 Thread Size, 2 Feet Long | $39.17 | $39.17 | [Link](https://www.mcmaster.com/93410A112/) |
+| **Total** | | | | **$1041.36** | |
+
+### Design Cost
+
+| Person | Hours Worked | Cost/Hour | Total Cost |
+| :--- | :---: | :---: | :---: |
+| Randy | 4.6 | $35 | $161 |
+| Noah | 8.7 | $35 | $304.5 |
+| Atiba | 3 | $35 | $105 |
+
+---
+
+<div align="center" style="margin: 25px 0; gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
+  <a href="A11.zip" download="A11.zip" style="
+    background-color: #1976d2; 
+    color: white; 
+    text-decoration: none;
+    padding: 12px 22px; 
+    font-size: 0.95em; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    display: inline-block;
+    transition: background-color 0.2s;">
+    📦 Download All Project Files &amp; Calculations (.zip)
+  </a>
+</div>
+
 <script>
   MathJax = {
     tex: {
